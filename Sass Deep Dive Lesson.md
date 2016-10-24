@@ -7,16 +7,21 @@
 4. Understand the four different control directives and when you would want to leverage them.
 
 
-##Why Sass (SCSS) is Worth Learning Well
+##Why Deeply Learning Sass (SCSS) is Worth Your Time 
 Let's face it, writing a lot of CSS is not very enjoyable. I love the instant gratification of seeing something beautiful come to life on the screen but it can get very frustrating inspecting elements and adding new classes for hours to get there. But never fear, Sass is here! Let's see how Sass can make writing CSS fun again.
 
-Sass makes you structure important front end choices in a functional way. Being able to quickly find, read and change your Sass is a very important skill on the job. If you can do this, you can get quick feedback from designers and move on the next feature. Otherwise, prepare for long days of wiping tears streaking down your face as you refresh the page for the 234th time and your navbar still doesn't have the correct box shadow. 
+Sass makes you structure important front end choices in a functional way. Being able to quickly find, read and change your Sass is a very important skill on the job. If you can do this, you can get quick feedback from designers and move on the next feature. Otherwise, prepare for long days of wiping tears streaking down your face as you refresh the page for the 87th time and your navbar still doesn't have the correct box shadow. 
 
-In addition to saving your sanity, Sass is now making complex visual components possible. Leave the Javascript for state/actions and keep the cool looks and feels in Sass. With control directives, not only are these visuals possible, but they also reinforce looping 
+In addition to saving your sanity, Sass is now making complex visual components possible. Leave the Javascript for state/actions and keep the cool looks and feels in Sass. With control directives, not only are these visuals possible, but they also reinforce fundamental coding principles. I understand for and while loops better because of Sass.
+
+Let's look at the possibilities...
 
 [Awesomeness in Sass](http://thesassway.com/advanced/inverse-trigonometric-functions-with-sass)
 
 [Fifty Shades of Grey](http://www.sassmeister.com/gist/a7c097629b60c41fb259)
+
+[Fibonacci and Bubble Sort](https://codepen.io/atideman/pen/QKJmaO)
+
 
 
 ##Variables - Covered
@@ -80,7 +85,7 @@ Use @import to include a partial.
 Pull down the add-sass-magic branch from the intro-sass-ideabox repo. Add the stylesheets, config, partials and vendor folders and create a _colors.scss, _reset.scss, _buttons.scss, _input.scss, _typography.scss partials using the exisiting Sass code. Import those partials into the main.scss (or style.scss) file in your Ideabox.
 
 ## 2. Mixins and Functions
-A mixin allows you to define a set of styles along with the option to pass in agruments that you can include in HTML elements, classes or IDs. Mixins are great for reducing repetitive styles in your CSS.
+A mixin allows you to define a set of styles along with the option to pass in arguments that you can include in HTML elements, classes or IDs. Mixins are great for reducing repetitive styles in your CSS.
 
 To use:
 
@@ -103,7 +108,7 @@ To use:
 
 **Individually**
 
-Write a mixin called crazy-box that takes in three agruments and include it in the search-input class of Ideabox.
+Write a mixin called crazy-box that takes in three arguments and include it in the search-input class of Ideabox.
 
 [Solution](https://codepen.io/atideman/pen/QKJmaO)
 
@@ -133,7 +138,7 @@ Let's make a function that returns the correct width based on our target size an
 		
 **Individually**
 
-Write a function called marg-it that takes in multiple agruments and sets the margins for a div.
+Write a function called marg-it that takes in multiple arguments and sets the margins for a div.
 
 [Solution](https://codepen.io/atideman/pen/QKJmaO)
 
@@ -257,7 +262,7 @@ Output styles in a loop. Uses a variable name to track the loop. You can use fro
 
 ###@while
 
-Output styles until the set condition returns false.
+Output styles until the desired condition returns false.
 
 	$z:1;
 	
@@ -293,11 +298,6 @@ So what did we learn today?
 ##Project Work Time
 Use partials, mixins, functions and control directives (at least one of each @if, @each, @for, @while) in your Ideabox to add a four column grid to the idea list. Each column should have it's own unique style.
 
-
-##Extra - Fancy Math
-[Fibonacci and Bubble Sort](https://codepen.io/atideman/pen/QKJmaO)
-
-
 		
 ## Resources
 [Sass-Lang](http://sass-lang.com/guide)
@@ -305,3 +305,5 @@ Use partials, mixins, functions and control directives (at least one of each @if
 [Sass Basic Operators](https://www.sitepoint.com/sass-basics-operators/)
 
 [The Sass Way](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+
+[Compass](http://compass-style.org/)
