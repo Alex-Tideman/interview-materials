@@ -275,7 +275,7 @@ So what did we learn today?
 1. CSS doesn't need to be painful, it's fun with Sass!
 2. Using partials and imports keeps your Sass well organized and easy to change.
 3. Mixins and functions reduce repetitive styles and logic.
-4. Control directives allow you do to complex styles with very little Sass. 
+4. Control directives allows for complex styles with very little Sass. 
 
 
 ##Possible Questions
