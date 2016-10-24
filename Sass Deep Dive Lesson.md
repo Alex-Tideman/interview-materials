@@ -33,7 +33,7 @@ The partials directory stores most of your Sass code. You can break up the files
 The vendor directory is for 3rd party Sass files. Example would be using Bootstrap, Materialize, jQuery UI or Colorpicker.
 
 	
-			stylesheets/
+		stylesheets/
 		|
 		|-- config/
 		|	|-- _all.scss
