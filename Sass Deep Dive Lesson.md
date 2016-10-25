@@ -110,8 +110,6 @@ To use:
 
 Write a mixin called crazy-box that takes in three arguments and include it in the search-input class of Ideabox.
 
-[Solution](https://codepen.io/atideman/pen/QKJmaO)
-
 ---
 
 A similar feature is a Sass function, with the difference being that a function returns a single value. These are very useful in doing logic in your styles. You are already using some of the built in Sass functions such as rgba(200,0,100,.5) or darken(#500, %10). You name them with @function and set the return value with @return.
@@ -187,6 +185,8 @@ Compiles to:
 		  border-color: yellow;
 		}
 	
+[Check it out](https://codepen.io/atideman/pen/QKJmaO)
+
 **Pair Practice**
 
 Use mixins to create a gecko class that is extended by a reptile class that is extended by an animal class. 
